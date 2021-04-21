@@ -1,5 +1,11 @@
-let fruit = prompt("Which fruit to buy?", "apple");
-let bag = {};
-
-// take property name from the fruit variable
-bag[fruit] = 5;
+function yourFutureCareer(){
+   let career = Math.random();
+		if (career <= 0.32){
+			return 'FrontEnd Developer'
+    }else if (career <= 0.65){
+			return 'BackEnd Developer'
+		}else {
+      return 'Full-Stack Developer'
+    }
+  }
+console.log(yourFutureCareer())
